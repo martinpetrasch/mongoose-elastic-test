@@ -30,12 +30,12 @@ npm install
 
 Make sure you don't have a mapping on *pages* or *books* in elasticsearch and no *books* and *pages* collection in MongoDB.
 
-Clear books mapping with:
+Clear *books* mapping with:
 ```
 curl -XDELETE localhost:9200/books
 ```
 
-Clear pages mapping with:
+Clear *pages* mapping with:
 ```
 curl -XDELETE localhost:9200/pages
 ```
